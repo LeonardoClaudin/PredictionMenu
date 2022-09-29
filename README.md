@@ -8,7 +8,7 @@ GPS 5.0         | Group-based scoring PSSM
 AKID            | DNN
 NetPhorest      | ANN and PSSM
 
-## Requirements.
+## REQUIREMENTS.
 ### MusiteDeep
 1. Conda environment with Python 2.0 (named python2)
     1. keras == 1.1.0
@@ -34,7 +34,13 @@ No specific requirements. Only works in Linux.
 ### NetPhorest
 No specific requirements. Only works in Linux.
 
-## How to use it
+## HOW TO
+1. Unzip the PTM_phosphorilation.zip
+2. Make the main.sh an exxecutable bash script.
+    - Inside terminal, type: chmod u+x main.sh at the correct working directory
+    - run the program like: ./main.sh
+3. Select which tool to implement for the prediction and follow the instructions.
+
 ### MusiteDeep
 Store input FASTA file with the protein sequences inside *MusiteDeep* folder.
 
