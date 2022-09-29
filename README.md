@@ -42,10 +42,11 @@ Store input FASTA file with the protein sequences inside *MusiteDeep* folder.
 Currently not working. Working on an update.
 
 ### GPS 5.0
-Accepts FASTA files of any given residue length. 
+Accepts FASTA files of any given residue length. File can be loaded from any directory.
 
 ### AKID
-Requires FASTA files for the Kinase (in order to create kinase determinants) and FASTA files for the protein sequences (input)
+Requires FASTA files for the Kinase (in order to create kinase determinants) and FASTA files for the protein sequences (input).
+Both should be stored inside *AKID/input* folder.
 
 ### NetPhorest
-Only requires FASTA file of any given residue length.
+Only requires FASTA file of any given residue length. File should be stored inside *NetPhorest* folder.
