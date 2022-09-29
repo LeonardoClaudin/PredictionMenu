@@ -25,10 +25,27 @@ NetPhorest      | ANN and PSSM
    - Inside keras.json change backend from theano to tensorflow
 
 ### GPS 5.0
-1. No specific requirements. Only works in Linux.
+No specific requirements. Only works in Linux.
+Installation for local use is required (recommended in home directory).
 
 ### AKID
-1. No specific requirements. Only works in Linux.
+No specific requirements. Only works in Linux.
 
 ### NetPhorest
-1. No specific requirements. Only works in Linux.
+No specific requirements. Only works in Linux.
+
+## How to use it
+### MusiteDeep
+Store input FASTA file with the protein sequences inside *MusiteDeep* folder.
+
+###DeePhos
+Currently not working. Working on an update.
+
+### GPS 5.0
+Accepts FASTA files of any given residue length. 
+
+### AKID
+Requires FASTA files for the Kinase (in order to create kinase determinants) and FASTA files for the protein sequences (input)
+
+### NetPhorest
+Only requires FASTA file of any given residue length.
